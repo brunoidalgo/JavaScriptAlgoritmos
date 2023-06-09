@@ -1,4 +1,4 @@
-const arrProdutos = require("./livros")
+const arrProdutos = require("./livros.json")
 
 
 function menorValor(arrProdutos,posicaoInicial) {

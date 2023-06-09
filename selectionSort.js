@@ -1,4 +1,4 @@
-const livros = require('./livros')
+const livros = require('./livros.json')
 const menorValor = require('./menorValor.js')
 
 
