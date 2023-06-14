@@ -1,0 +1,30 @@
+[
+    {
+        "produto": "Iphone 8 Plus",
+        "preco": 1400.00
+    },
+    {
+        "produto": "Iphone Xr",
+        "preco":1900.00
+    },
+    {
+        "produto": "Iphone 11",
+        "preco": 2300.00
+    },
+    {
+        "produto": "Iphone 12",
+        "preco": 3000.00
+    },
+    {
+        "produto": "Iphone 13",
+        "preco": 4500.00
+    },
+    {
+        "produto":"Iphone 14",
+        "preco":6000.00
+    },
+    {
+        "produto":"Iphone 15",
+        "preco":7500.00
+    }
+]

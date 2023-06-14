@@ -1,26 +1,23 @@
 const livros = require('./livros.json')
+const troca = require('./troca')
 
 
-function insertOnSort (lista ) {
+function insertOnSort (lista) {
 
-    livros.forEach((indice) => {
+    for (let atual = 1; atual < livros.length; atual++ ) {
 
-        let analise = indice;
+        let analise = atual
 
-        while ( analise > 0 && lista[analise].preco < lista[analise - 1].preco) {
-
-            let itemAnalise = lista[analise]
-            let itemAnterior = lista[analise - 1]
-
-            lista[analise] = itemAnterior
-            lista[analise - 1] = itemAnalise
+        while(analise > 0 && lista[analise].preco < lista[analise - 1].preco) {
+            
+            troca(lista, analise)
 
             analise--
         }
-
-    })
+    }
 
     console.log(lista)
+
 }
 
 insertOnSort(livros)
